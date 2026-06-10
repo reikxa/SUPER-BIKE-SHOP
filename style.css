@@ -1,0 +1,197 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dfd2d2;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #080808;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.logo > img {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a span {
+  color: #f0c60fd3;
+}
+.nav-links {
+  text-align: center;
+}
+.search > input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  height: 15px;
+}
+.search > button {
+  font-size: 16px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+.slide-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.slide-content {
+  padding-left: 50px;
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin-top: 190px;
+}
+
+.category-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-left: 20px;
+  color: gold;
+}
+
+.main-title {
+  font-size: 44px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 0;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 900;
+}
+.container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  gap: 50px;
+  padding: 25px;
+  justify-content: center;
+}
+.card {
+  width: 350px;
+  height: 580px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 0px 8px black;
+}
+.box-img {
+  width: 97%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px auto;
+  margin-bottom: -10px;
+}
+.box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.tittle h3 {
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: 800;
+  margin-bottom: -10px;
+}
+.tittle p {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.tittle span {
+  color: gold;
+  margin-left: 10px;
+}
+.card button {
+  display: block;
+  margin: -10px auto;
+  height: 35px;
+  width: 110px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 0px 8px black;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+}
+.price {
+  margin-top: -20px;
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 10px;
+}
+.price span {
+  color: red;
+}
+footer {
+  padding: 0;
+  margin-top: 20px;
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  height: 300px;
+}
+.form{
+  width: 95%;
+  margin: 80px auto;
+  padding: 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: azure;
+}
+.team-grid{
+  text-align: center;
+}
